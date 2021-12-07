@@ -1,0 +1,85 @@
+body {
+    background-color: #160040;
+}
+.aboutbtn1, .aboutbtn2 {
+    width: 140px;
+    margin: 10px 15px;
+}
+#headingbtn {
+    padding: 15px 20px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.siteName {
+    padding: 10px;
+    margin: 20px 0 0 10px;
+}
+.aboutPg, .aboutPg1 {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #headingbtn {
+      padding: 5px 5px 5px 55px;
+      display: flex;
+      flex-direction: column;
+    }
+    .aboutbtn1, .aboutbtn2 {
+        margin: 5px;
+    }
+  }
+#pImg {
+    width: 100%;
+}
+#personal {
+    display: none;
+}
+.headList {
+    background-color: #000000;
+    color: #FFB319;
+    text-align: center;
+    margin: 3px;
+}
+#hdls {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.hdlsDetails {
+    padding: 20px;
+    margin: 5px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.pl1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#hdlsImg {
+    max-height: 500px;
+}
+@media screen and (max-width: 768px) {
+    #hdls {
+        display: block;
+    }
+    #hdlsImg {
+        width: 300px;
+    }
+    .hdlsImg {
+        display: flex;
+        justify-content: center;
+    }
+    .hdlsDetails {
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .hdlsDetails {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
